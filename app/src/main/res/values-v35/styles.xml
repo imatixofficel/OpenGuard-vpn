@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Psiphon" parent="Theme.AppCompat">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+        <item name="colorPrimary">@color/og_red</item>
+        <item name="colorPrimaryDark">@color/og_red_dark</item>
+        <item name="colorAccent">@color/og_gold</item>
+        <item name="android:windowBackground">@color/og_background</item>
+        <item name="android:colorBackground">@color/og_background</item>
+        <item name="android:textColorPrimary">@color/og_text_primary</item>
+        <item name="android:textColorSecondary">@color/og_text_secondary</item>
+        <item name="android:fontFamily">@font/vazirmatn_black</item>
+        <item name="fontFamily">@font/vazirmatn_black</item>
+        <item name="alertDialogTheme">@style/Theme.OpenGuard.Dialog</item>
+        <item name="buttonStyle">@style/Widget.OpenGuard.Button</item>
+        <item name="android:buttonStyle">@style/Widget.OpenGuard.Button</item>
+    </style>
+    <style name="Theme.Psiphon.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+        <item name="colorPrimary">@color/og_red</item>
+        <item name="colorPrimaryDark">@color/og_red_dark</item>
+        <item name="colorAccent">@color/og_gold</item>
+        <item name="android:windowBackground">@color/og_background</item>
+        <item name="android:colorBackground">@color/og_background</item>
+        <item name="android:textColorPrimary">@color/og_text_primary</item>
+        <item name="android:textColorSecondary">@color/og_text_secondary</item>
+        <item name="android:fontFamily">@font/vazirmatn_black</item>
+        <item name="fontFamily">@font/vazirmatn_black</item>
+        <item name="alertDialogTheme">@style/Theme.OpenGuard.Dialog</item>
+        <item name="buttonStyle">@style/Widget.OpenGuard.Button</item>
+        <item name="android:buttonStyle">@style/Widget.OpenGuard.Button</item>
+    </style>
+</resources>

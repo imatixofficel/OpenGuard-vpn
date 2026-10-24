@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="og_red">#AA0206</color>
+    <color name="og_red_dark">#6E0104</color>
+    <color name="og_gold">#F2C230</color>
+    <color name="og_gold_soft">#C9A227</color>
+    <color name="og_background">#140808</color>
+    <color name="og_surface">#241010</color>
+    <color name="og_surface_stroke">#4D2A1A</color>
+    <color name="og_text_primary">#FFF4DC</color>
+    <color name="og_text_secondary">#C9B79A</color>
+</resources>

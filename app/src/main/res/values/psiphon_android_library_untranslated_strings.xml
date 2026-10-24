@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UpgradeManager.UpgradeAvailableNotificationId">Shir o Khorshid Upgrade Available Notification</string>
+    <string name="preferencesNotifications">preferencesNotifications</string>
+    <string name="preferenceNotificationsWithSound">preferenceNotificationsWithSoundDefaultOff</string>
+    <string name="preferenceNotificationsWithVibrate">preferenceNotificationsWithVibrateDefaultOff</string>
+    <string name="preferencesLanguage">preferencesLanguage</string>
+    <string name="preferenceLanguageSelection">preferenceLanguageSelection</string>
+    <string name="preferenceNavigateToVPNSetting">preferenceNavigateToVPNSetting</string>
+    <string name="vpnSettingsCategoryKey">vpnSettingsCategoryKey</string>
+    <string name="preferenceIncludeAllAppsInVpn" translatable="false">preferenceIncludeAllAppsInVpn</string>
+    <string name="preferenceIncludeAppsInVpn" translatable="false">preferenceIncludeAppsInVpn</string>
+    <string name="preferenceIncludeAppsInVpnString" translatable="false">preferenceIncludeAppsInVpnString</string>
+    <string name="preferenceExcludeAppsFromVpn" translatable="false">preferenceExcludeAppsFromVpn</string>
+    <string name="preferenceExcludeAppsFromVpnString" translatable="false">preferenceExcludeAppsFromVpnString</string>
+    <string name="preferenceSelectApps" translatable="false">preferenceSelectApps</string>
+    <string name="preferenceDefaultExclusionsFooter" translatable="false">preferenceDefaultExclusionsFooter</string>
+    <string name="preferenceAbout" translatable="false">preferenceAbout</string>
+    <string name="preferenceAboutMalAware" translatable="false">preferenceAboutMalAware</string>
+    <string name="AboutMalAwareLink" translatable="false">https://s3.amazonaws.com/psiphon/web/malaware.io/index.html</string>
+    <!-- backwards compatible shared preferences names for new 'More Options' screen with proxy settings  -->
+    <string name="proxySettingsCategoryKey">proxySettingsCategoryKey</string>
+    <string name="useProxySettingsPreference">useProxySettingsPreference</string>
+    <string name="useSystemProxySettingsPreference">useSystemProxySettingsPreference</string>
+    <string name="useCustomProxySettingsPreference">useCustomProxySettingsPreference</string>
+    <string name="useCustomProxySettingsHostPreference">useCustomProxySettingsHostPreference</string>
+    <string name="useCustomProxySettingsPortPreference">useCustomProxySettingsPortPreference</string>
+    <string name="useProxyAuthenticationPreference">useProxyAuthenticationPreference</string>
+    <string name="useProxyUsernamePreference">useProxyUsernamePreference</string>
+    <string name="useProxyPasswordPreference">useProxyPasswordPreference</string>
+    <string name="useProxyDomainPreference">useProxyDomainPreference</string>
+    <string name="downloadWifiOnlyPreference">downloadWifiOnlyPreference</string>
+    <string name="disableTimeoutsPreference">disableTimeoutsPreference</string>
+    <string name="autoOpenHomepagePreference">autoOpenHomepagePreference</string>
+    <string name="forceConduitPreference" translatable="false">forceConduitPreference</string>
+    <string name="protocolSelectionPreference" translatable="false">protocolSelectionPreference</string>
+    <string name="beastModePreference" translatable="false">beastModePreference</string>
+    <string name="rejectCensoredCountryProxiesPreference" translatable="false">rejectCensoredCountryProxiesPreference</string>
+    <string name="unsafeTrafficAlertsPreference" translatable="false">unsafeTrafficAlertsPreference</string>
+    <string name="egressRegionPreference">egressRegionPreference</string>
+    <string name="moreOptionsPreferencesName">moreOptionsPreferencesName</string>
+    <string name="nfcBumpPreference" translatable="false">nfcBumpPreference</string>
+
+    <string name="upgrade_checker_service_name">ShirOKhorshid:UpgradeChecker</string>
+
+    <string name="current_local_http_proxy_port">currentLocalHttpProxyPort</string>
+    <string name="proxyOptionsPreferenceKey" translatable="false">proxyOptionsPreferenceKey</string>
+    <string name="vpnOptionsPreferenceKey" translatable="false">vpnOptionsPreferenceKey</string>
+    <string name="feedbackPreferenceKey" translatable="false">feedbackPreferenceKey</string>
+    <string name="moreOptionsPreferenceKey" translatable="false">moreOptionsPreferenceKey</string>
+    <string name="regionPreferenceKey" translatable="false">regionPreferenceKey</string>
+    <string name="alert_notification_group" translatable="false">alert_notification_group</string>
+    <string name="upgrade_notification_group" translatable="false">upgrade_notification_group</string>
+    <string name="status_notification_group" translatable="false">status_notification_group</string>
+    <string name="vpnServiceDataCollectionDisclosureAccepted" translatable="false">vpnServiceDataCollectionDisclosureAccepted</string>
+    <string name="deviceLocationPrecisionParameter" translatable="false">deviceLocationPrecision</string>
+    <string name="serviceRunningPreference" translatable="false">serviceRunningPreference</string>
+    <string name="cdnFrontingCustomIpListPreference" translatable="false">cdnFrontingCustomIpListPreference</string>
+    <string name="cdnFrontingCustomSniPreference" translatable="false">cdnFrontingCustomSniPreference</string>
+
+    <string-array name="languages">
+        <item>فارسی,fa</item>
+        <item>English,en</item>
+    </string-array>
+
+    <string-array name="protocol_selection_entries" translatable="false">
+        <item>@string/protocol_auto</item>
+        <item>@string/protocol_direct</item>
+        <item>@string/protocol_cdn_fronting</item>
+        <item>@string/protocol_conduit</item>
+    </string-array>
+
+    <string-array name="protocol_selection_values" translatable="false">
+        <item>auto</item>
+        <item>direct</item>
+        <item>cdn_fronting</item>
+        <item>conduit</item>
+    </string-array>
+
+    <string-array name="conduit_mode_entries" translatable="false">
+        <item>@string/conduit_mode_auto</item>
+        <item>@string/conduit_mode_shirokhorshid</item>
+        <item>@string/conduit_mode_public</item>
+    </string-array>
+
+    <string-array name="conduit_mode_values" translatable="false">
+        <item>auto</item>
+        <item>shirokhorshid</item>
+        <item>public</item>
+    </string-array>
+
+    <string-array name="conduit_timeout_entries" translatable="false">
+        <item>@string/conduit_timeout_2min</item>
+        <item>@string/conduit_timeout_3min</item>
+        <item>@string/conduit_timeout_5min</item>
+        <item>@string/conduit_timeout_10min</item>
+    </string-array>
+
+    <string-array name="conduit_timeout_values" translatable="false">
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+</resources>

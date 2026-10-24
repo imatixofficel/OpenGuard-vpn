@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="socks_running">SOCKS running on port %d</string>
+    <string name="http_proxy_running">HTTP proxy running on port %d</string>
+    <string name="client_version">Client Version %s</string>
+    <string name="starting_tunnel">Starting tunnel…</string>
+    <string name="stopping_tunnel">Stopping tunnel…</string>
+    <string name="stopped_tunnel">Stopped tunnel</string>
+    <string name="socks_port_in_use">Requested local SOCKS proxy port %d is already in use by another app.  Cannot continue.</string>
+    <string name="waiting_for_network_connectivity">Waiting for network connectivity…</string>
+    <string name="psiphon_service_notification_message_connecting">Connecting…</string>
+    <string name="psiphon_service_notification_id">Shir o Khorshid Service Notification</string>
+    <string name="psiphon_service_notification_channel_name">Shir o Khorshid Status Changes</string>
+    <string name="psiphon_upgrade_notification_channel_name">Shir o Khorshid Upgrade</string>
+    <string name="psiphon_server_alert_notification_channel_name">Shir o Khorshid Server Alerts</string>
+    <!-- Name of the notification channel for 'Psiphon crashed' notifications, note that 'Crashes' is a plural noun. -->
+    <string name="psiphon_native_crash_notification_channel_name">Shir o Khorshid Crashes</string>
+    <string name="vpn_service_running">VPN service running</string>
+    <string name="vpn_service_revoked">VPN service revoked</string>
+    <string name="current_network_type">Current network: %s</string>
+    <!-- Do not translate or transliterate "Psiphon" -->
+    <string name="UpgradeManager.UpgradePromptTitle">Shir o Khorshid Upgrade</string>
+    <!-- Do not translate or transliterate "Psiphon" -->
+    <string name="UpgradeManager.UpgradePromptMessage">An upgrade for Shir o Khorshid is ready to be installed.</string>
+    <string name="connected_elapsed_time">Connected: %s</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="label_sent">Sent</string>
+    <string name="label_received">Received</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="home_tab_name">Home</string>
+    <string name="settings_tab_name">Options</string>
+    <string name="statistics_tab_name">Stats</string>
+    <string name="logs_tab_name">Logs</string>
+    <string name="use_proxy_settings_toggle">Connect through an HTTP Proxy</string>
+    <string name="use_system_proxy_settings_radio">Use system network settings</string>
+    <string name="use_custom_proxy_settings_radio">Use the following settings:</string>
+    <string name="custom_proxy_settings_host">Host Address</string>
+    <string name="custom_proxy_settings_port">Port</string>
+    <string name="region_name_any">Best performance</string>
+    <string name="region_name_us">United States</string>
+    <string name="region_name_gb">United Kingdom</string>
+    <string name="region_name_ca">Canada</string>
+    <string name="region_name_de">Germany</string>
+    <string name="region_name_jp">Japan</string>
+    <string name="region_name_hk">Hong Kong</string>
+    <string name="region_name_sg">Singapore</string>
+    <string name="region_name_nl">Netherlands</string>
+    <string name="region_name_in">India</string>
+    <string name="region_name_es">Spain</string>
+    <string name="region_name_at">Austria</string>
+    <string name="region_name_be">Belgium</string>
+    <string name="region_name_bg">Bulgaria</string>
+    <string name="region_name_ch">Switzerland</string>
+    <string name="region_name_cz">Czech Republic</string>
+    <string name="region_name_dk">Denmark</string>
+    <string name="region_name_fr">France</string>
+    <string name="region_name_hu">Hungary</string>
+    <string name="region_name_it">Italy</string>
+    <string name="region_name_no">Norway</string>
+    <string name="region_name_ro">Romania</string>
+    <string name="region_name_se">Sweden</string>
+    <string name="region_name_pl">Poland</string>
+    <string name="region_name_sk">Slovakia</string>
+    <string name="region_name_rs">Serbia</string>
+    <string name="region_name_au">Australia</string>
+    <string name="region_name_ae">United Arab Emirates</string>
+    <string name="region_name_ar">Argentina</string>
+    <string name="region_name_br">Brazil</string>
+    <string name="region_name_cl">Chile</string>
+    <string name="region_name_ee">Estonia</string>
+    <string name="region_name_fi">Finland</string>
+    <string name="region_name_is">Iceland</string>
+    <string name="region_name_ie">Ireland</string>
+    <string name="region_name_ke">Kenya</string>
+    <string name="region_name_kr">Korea</string>
+    <string name="region_name_lt">Lithuania</string>
+    <string name="region_name_lv">Latvia</string>
+    <string name="region_name_mx">Mexico</string>
+    <string name="region_name_tw">Taiwan</string>
+    <string name="region_name_za">South Africa</string>
+    <string name="region_name_id">Indonesia</string>
+    <string name="region_name_nz">New Zealand</string>
+    <string name="region_name_gr">Greece</string>
+    <string name="region_name_ua">Ukraine</string>
+    <string name="region_name_pt">Portugal</string>
+    <string name="region_name_hr">Croatia</string>
+    <string name="region_name_co">Colombia</string>
+    <string name="region_name_my">Malaysia</string>
+    <string name="about">About Shir o Khorshid</string>
+    <string name="feedback">Feedback</string>
+    <string name="disableTimeoutsPreferenceSummary">Disable timeouts for slow networks</string>
+    <string name="protocolSelectionPreferenceTitle">Connection Protocol</string>
+    <string name="protocolSelectionPreferenceSummary">Choose how the app connects to servers</string>
+    <string name="protocolSelectionSummaryAuto">Auto - The app chooses the best protocol, including CDN fronting</string>
+    <string name="protocolSelectionSummaryConduit">Conduit - Connect via volunteer relays (censored country proxies are blocked)</string>
+    <string name="protocolSelectionSummaryCdnFronting">CDN Fronting - Use CDN fronting only</string>
+    <string name="protocolSelectionSummaryDirect">Direct - Try direct server protocols and CDN fronting</string>
+    <string name="protocol_auto">Auto (Recommended)</string>
+    <string name="protocol_conduit">Conduit Relays</string>
+    <string name="protocol_cdn_fronting">CDN Fronting</string>
+    <string name="protocol_direct">Direct Connection</string>
+    <string name="preference_category_cdn_fronting_title">CDN Fronting</string>
+    <string name="preference_category_cdn_fronting_description">Optional expert overrides for CDN fronting. These settings are used in Auto, Direct, and CDN Fronting modes.</string>
+    <string name="cdnFrontingCustomIpListPreferenceTitle">CDN edge IPs</string>
+    <string name="cdnFrontingCustomIpListPreferenceSummary">Optional extra CDN edge IPs or CIDRs separated by commas, spaces, or new lines. Tried before the built-in list.</string>
+    <string name="cdnFrontingCustomIpListPreferenceSummaryConfigured">Using %1$d CDN edge IP/CIDR entries</string>
+    <string name="cdnFrontingCustomSniPreferenceTitle">CDN SNI hostnames</string>
+    <string name="cdnFrontingCustomSniPreferenceSummary">Optional extra SNI hostnames separated by commas, spaces, or new lines. No-SNI variants are also tested.</string>
+    <string name="cdnFrontingCustomSniPreferenceSummaryConfigured">Using SNI: %1$s</string>
+    <string name="cdnFrontingCustomSniPreferenceSummaryConfiguredMultiple">Using %1$d SNI hostnames</string>
+    <string name="cdnFrontingCustomSniPreferenceSummaryInvalid">No valid hostnames; SNI list will be ignored</string>
+    <string name="beastModePreferenceTitle">Beast Mode</string>
+    <string name="beastModePreferenceSummaryOn">Aggressive connection: tries all protocols on every server</string>
+    <string name="beastModePreferenceSummaryOff">Normal connection: randomly selects protocols per server</string>
+    <string name="rejectCensoredCountryProxiesPreferenceTitle">Reject proxies in censored countries</string>
+    <string name="rejectCensoredCountryProxiesPreferenceSummary">Block Conduit stations located in Iran, China, Russia, and other censored countries</string>
+    <string name="conduit_proxy_trying">Trying Conduit relay (country: %s)</string>
+    <string name="beast_mode_active">Beast Mode active — testing all protocols (%s workers)</string>
+    <string name="beast_mode_connected">Beast Mode connected after %1$s attempts across %2$s servers</string>
+    <string name="cdn_fronting_scan_active">CDN scan active - %1$s mode, %2$s workers</string>
+    <string name="cdn_fronting_scan_progress">CDN scan: %1$s attempts, working: %2$s</string>
+    <string name="cdn_fronting_scan_exhausted">CDN scan finished after %1$s attempts, working: %2$s</string>
+    <string name="cdn_fronting_scan_found">CDN scan found a working route</string>
+    <string name="cdn_fronting_scan_found_with_route">CDN scan found %1$s + %2$s</string>
+    <string name="cdn_fronting_scan_no_sni">no SNI</string>
+    <string name="conduit_proxy_connected">Tunnel connected via Conduit (protocol: %1$s, country: %2$s)</string>
+    <string name="conduit_proxy_connected_no_country">Tunnel connected via Conduit (protocol: %s)</string>
+    <string name="conduit_diag">[Conduit] %s</string>
+    <string name="tunnel_connected_protocol">Tunnel connected (protocol: %s)</string>
+    <string name="region_selector">Select server region</string>
+    <string name="network_proxy_connect_invalid_values">Invalid HTTP Proxy settings</string>
+    <string name="tunnel_whole_device_exception">Your device does not support the whole device tunnel option due to missing VpnService API.</string>
+    <string name="preference_notifications_title">Notifications</string>
+    <string name="preference_vpn_title">VPN</string>
+    <!-- Description of option to tunnel everything -->
+    <string name="preference_routing_include_all_apps_summary">Tunnel all apps</string>
+    <!-- Title for selecting apps to be tunneled -->
+    <string name="preference_routing_include_apps_title">Include Apps</string>
+    <!-- Description of option to tunnel only selected apps -->
+    <string name="preference_routing_include_apps_summary">Only tunnel selected apps</string>
+    <!-- Title for selecting apps to be excluded -->
+    <string name="preference_routing_exclude_apps_title">Exclude Apps</string>
+    <!-- Description of option to tunnel everything but selected apps -->
+    <string name="preference_routing_exclude_apps_summary">Don\'t tunnel selected apps</string>
+    <!-- Log line for when an app is tunneled -->
+    <string name="individual_app_included">Tunneling app: %s</string>
+    <!-- Log line for when an app is excluded from being tunneled -->
+    <string name="individual_app_excluded">App excluded from tunnel: %s</string>
+    <!-- Log line for when all apps will be tunneled -->
+    <string name="no_apps_excluded">No applications were excluded from the tunnel</string>
+    <!-- Title for option to select apps for routing changes -->
+    <string name="preference_routing_select_apps_title">Select apps</string>
+    <!-- Description of option to select apps to exclusively tunnel -->
+    <plurals name="preference_routing_select_apps_to_include_summary">
+        <item quantity="one">%d app will be tunneled via VPN</item>
+        <item quantity="other">%d apps will be tunneled via VPN</item>
+    </plurals>
+    <!-- Description of option to select apps to not tunnel -->
+    <plurals name="preference_routing_select_apps_to_exclude_summary">
+        <item quantity="one">%d app will be excluded from VPN</item>
+        <item quantity="other">%d apps will be excluded from VPN</item>
+    </plurals>
+    <!-- Vpn service notification text shown in the toolbar when tunneling all apps-->
+    <string name="psiphon_service_notification_message_vpn_all_apps">Tunneling all apps</string>
+    <!-- Vpn service notification text shown in the toolbar when tunneling only selected apps-->
+    <plurals name="psiphon_service_notification_message_vpn_include_apps">
+        <item quantity="one">Tunneling %d app</item>
+        <item quantity="other">Tunneling %d apps</item>
+    </plurals>
+    <!-- Vpn service notification text shown in the toolbar when not tunneling selected apps-->
+    <plurals name="psiphon_service_notification_message_vpn_exclude_apps">
+        <item quantity="one">%d app excluded from the tunnel</item>
+        <item quantity="other">%d apps excluded from the tunnel</item>
+    </plurals>
+    <!-- Text shown in the footer of the VPN settings screen notifying the user that certain apps are automatically excluded from VPN routing -->
+    <string name="vpn_preferences_default_exclusions_footer_text">Certain related apps are automatically excluded from VPN routing to ensure proper functionality. These exclusions cannot be modified.</string>
+    <string name="preference_routing_all_apps_tunnel_summary">All apps will be tunnelled via VPN</string>
+    <string name="preference_notifications_with_sound_title">Sound</string>
+    <string name="preference_notifications_with_sound_summary">Play sound when connection status changes</string>
+    <string name="preference_notifications_with_vibrate_title">Vibrate</string>
+    <string name="preference_notifications_with_vibrate_summary">Vibrate when connection status changes</string>
+    <string name="downloadWiFiOnlyPreferenceSummary">Download upgrades on Wi-Fi only</string>
+    <string name="moreOptions">More Options</string>
+    <string name="proxySettingsCategoryTitle">Proxy Settings</string>
+    <string name="custom_proxy_host_summary">Proxy server hostname or IP</string>
+    <string name="custom_proxy_port_summary">Proxy server port</string>
+    <string name="use_proxy_authentication_title">Use proxy authentication</string>
+    <string name="proxy_username_title">Proxy username</string>
+    <string name="proxy_username_summary">Username for proxy authentication</string>
+    <string name="proxy_password_title">Proxy password</string>
+    <string name="proxy_password_summary">Password for proxy authentication</string>
+    <string name="proxy_domain_title">Proxy domain</string>
+    <string name="proxy_domain_summary">Domain for proxy authentication</string>
+    <string name="http_proxy_port_in_use">Requested local HTTP proxy port %d is already in use by another app.  Cannot continue.</string>
+
+    <!-- When the split tunnel option is enabled, the current region is used to determine which requests should and shouldn't be tunneled. This log message tells the user which region (in '%s') is being used for this decision. -->
+    <string name="split_tunnel_region">Split tunnel region: %s</string>
+
+    <!-- When the split tunnel option is enabled, this log message is shown when a domain is not tunneled (because it's detected as being in the same region as the user). The '%s' is the domain name. -->
+    <string name="untunneled_address">Untunneled: %s</string>
+
+    <!-- The log message is shown to the user if an upstream proxy error occurs. The '%s' is the detail of the error. -->
+    <string name="upstream_proxy_error">Upstream proxy error: %s</string>
+
+    <string name="start_tunnel_failed">Start tunnel failed: %s</string>
+    <string name="vpn_exclusions_conflict">There are one or more conflicting applications in your current VPN exclusions. Please go to the VPN settings and switch to \'Tunnel all apps\' mode to connect.</string>
+    <string name="tunnel_connecting">Tunnel connecting…</string>
+    <string name="tunnel_connected">Tunnel connected</string>
+    <string name="waiting">Waiting…</string>
+
+    <string name="label_vpn_settings">VPN settings</string>
+    <string name="label_proxy_settings">Proxy settings</string>
+    <string name="preference_summary_no_proxy">No proxy</string>
+    <string name="preference_summary_custom_proxy">Custom proxy</string>
+    <string name="preference_summary_system_proxy">System proxy</string>
+    <string name="disableTimeoutsPreferenceTitle">Disable timeouts</string>
+    <string name="autoOpenHomepagePreferenceTitle">Open website after connecting</string>
+    <string name="autoOpenHomepagePreferenceSummary">Automatically open the connection website when the tunnel connects</string>
+    <string name="downloadWiFiOnlyPreferenceTitle">Wi-Fi only</string>
+
+    <string name="unsafeTrafficAlertsOptInPreferenceTitle">Show MalAware alerts</string>
+    <string name="unsafeTrafficAlertsOptInPreferenceSummary">Get notified when the app detects malware traffic originating from your device.</string>
+    <string name="aboutMalAware">About MalAware</string>
+
+    <!-- Preference title for NFC based connection data exchange -->
+    <string name="nfcBumpPreferenceTitle">Enable NFC Bump</string>
+    <!-- Summary for NFC Bump preference -->
+    <string name="nfcBumpPreferenceSummary">Use NFC to share connection data with other devices.</string>
+
+    <!-- Conduit configuration preferences -->
+    <string name="conduitModePreference">conduitMode</string>
+    <string name="conduitTimeoutPreference">conduitTimeout</string>
+
+    <string name="preference_category_conduit_title">Conduit Configuration</string>
+    <string name="preference_category_conduit_description">Configure how the app connects through volunteer relay conduits. Conduits are run by volunteers to help users in censored regions access the internet.</string>
+
+    <string name="conduitModePreferenceTitle">Conduit Mode</string>
+    <string name="conduitModePreferenceSummary">Choose which conduits to connect through</string>
+
+    <string name="conduitModeSummaryAuto">Auto - First tries Shir o Khorshid conduits, then falls back to public conduits if no connection is made within the timeout period</string>
+    <string name="conduitModeSummaryShirOKhorshid">Dedicated Shir o Khorshid conduits only</string>
+    <string name="conduitModeSummaryPublic">Public conduits only</string>
+
+    <string name="conduit_mode_auto">Auto (Recommended)</string>
+    <string name="conduit_mode_shirokhorshid">Shir o Khorshid Conduits</string>
+    <string name="conduit_mode_public">Public Conduits</string>
+
+    <string name="conduitTimeoutPreferenceTitle">Fallback Timeout</string>
+    <string name="conduitTimeoutPreferenceSummary">How long to wait before trying the next conduit mode (Auto mode only)</string>
+
+    <string name="conduitTimeoutSummary">Wait %s before falling back to the next mode</string>
+
+    <string name="conduit_timeout_2min">2 minutes</string>
+    <string name="conduit_timeout_3min">3 minutes (Recommended)</string>
+    <string name="conduit_timeout_5min">5 minutes</string>
+    <string name="conduit_timeout_10min">10 minutes</string>
+
+    <!-- Conduit fallback log messages -->
+    <string name="conduit_fallback_trying_shirokhorshid">Trying Shir o Khorshid conduits\u2026</string>
+    <string name="conduit_fallback_timeout">Shir o Khorshid conduits timed out after %s</string>
+    <string name="conduit_fallback_trying_public">Trying public conduits\u2026</string>
+    <string name="conduit_mode_status">Conduit mode: %s</string>
+    <string name="cdnFrontingFetchIpsPreferenceTitle">Get clean IPs</string>
+    <string name="cdnFrontingFetchIpsPreferenceSummary">Downloads clean CDN IPs from the online source and replaces the list above</string>
+    <string name="cdnFrontingFetchIpsFetching">Fetching IPs…</string>
+    <string name="cdnFrontingFetchIpsDone">%1$d IPs fetched and applied. Reconnect so they take effect.</string>
+    <string name="cdnFrontingFetchIpsEmpty">No valid IPs were found in the file.</string>
+    <string name="cdnFrontingFetchIpsFailed">Could not fetch the IPs. Check your connection and try again.</string>
+</resources>

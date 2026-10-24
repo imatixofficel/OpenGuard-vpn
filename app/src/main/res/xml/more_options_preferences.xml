@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (c) 2014, Psiphon Inc.
+ * All rights reserved.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="@string/preferencesLanguage"
+        android:title="@string/preference_language_title">
+        <ListPreference
+            android:icon="@drawable/baseline_translate_white_24"
+            android:key="@string/preferenceLanguageSelection"
+            android:summary="@string/preference_language_selection_summary"
+            android:title="@string/preference_language_selection_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/preferencesNotifications"
+        android:title="@string/preference_notifications_title" >
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_notifications_active_white_24"
+            android:defaultValue="false"
+            android:key="@string/preferenceNotificationsWithSound"
+            android:summary="@string/preference_notifications_with_sound_summary"
+            android:title="@string/preference_notifications_with_sound_title" />
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_vibration_white_24"
+            android:defaultValue="false"
+            android:key="@string/preferenceNotificationsWithVibrate"
+            android:summary="@string/preference_notifications_with_vibrate_summary"
+            android:title="@string/preference_notifications_with_vibrate_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_advanced_title">
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_sync_disabled_white_24"
+            android:key="@string/disableTimeoutsPreference"
+            android:title="@string/disableTimeoutsPreferenceTitle"
+            android:summary="@string/disableTimeoutsPreferenceSummary" />
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_info_white_24"
+            android:defaultValue="true"
+            android:key="@string/autoOpenHomepagePreference"
+            android:title="@string/autoOpenHomepagePreferenceTitle"
+            android:summary="@string/autoOpenHomepagePreferenceSummary" />
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_system_update_white_24"
+            android:key="@string/downloadWifiOnlyPreference"
+            android:title="@string/downloadWiFiOnlyPreferenceTitle"
+            android:summary="@string/downloadWiFiOnlyPreferenceSummary" />
+        <CheckBoxPreference
+            android:icon="@drawable/baseline_gpp_maybe_white_24"
+            android:key="@string/unsafeTrafficAlertsPreference"
+            android:title="@string/unsafeTrafficAlertsOptInPreferenceTitle"
+            android:summary="@string/unsafeTrafficAlertsOptInPreferenceSummary" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_contactless"
+            android:key="@string/nfcBumpPreference"
+            android:title="@string/nfcBumpPreferenceTitle"
+            android:summary="@string/nfcBumpPreferenceSummary" />
+        <ListPreference
+            android:icon="@drawable/baseline_device_hub_white_24"
+            android:key="@string/protocolSelectionPreference"
+            android:title="@string/protocolSelectionPreferenceTitle"
+            android:summary="@string/protocolSelectionPreferenceSummary"
+            android:entries="@array/protocol_selection_entries"
+            android:entryValues="@array/protocol_selection_values"
+            android:defaultValue="auto" />
+        <SwitchPreference
+            android:icon="@drawable/ic_beast_mode"
+            android:key="@string/beastModePreference"
+            android:title="@string/beastModePreferenceTitle"
+            android:summaryOn="@string/beastModePreferenceSummaryOn"
+            android:summaryOff="@string/beastModePreferenceSummaryOff"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="cdnFrontingCategory"
+        android:title="@string/preference_category_cdn_fronting_title">
+        <Preference
+            android:key="cdnFrontingDescription"
+            android:summary="@string/preference_category_cdn_fronting_description"
+            android:selectable="false" />
+        <EditTextPreference
+            android:icon="@drawable/ic_cdn_edge"
+            android:key="@string/cdnFrontingCustomIpListPreference"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:summary="@string/cdnFrontingCustomIpListPreferenceSummary"
+            android:title="@string/cdnFrontingCustomIpListPreferenceTitle" />
+        <Preference
+            android:key="cdnFrontingFetchIps"
+            android:layout="@layout/preference_cdn_fetch_button"
+            android:summary="@string/cdnFrontingFetchIpsPreferenceSummary"
+            android:title="@string/cdnFrontingFetchIpsPreferenceTitle" />
+        <EditTextPreference
+            android:icon="@drawable/ic_tls_sni"
+            android:key="@string/cdnFrontingCustomSniPreference"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:summary="@string/cdnFrontingCustomSniPreferenceSummary"
+            android:title="@string/cdnFrontingCustomSniPreferenceTitle" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="conduitCategory"
+        android:title="@string/preference_category_conduit_title">
+        <Preference
+            android:key="conduitDescription"
+            android:summary="@string/preference_category_conduit_description"
+            android:selectable="false" />
+        <ListPreference
+            android:icon="@drawable/baseline_device_hub_white_24"
+            android:key="@string/conduitModePreference"
+            android:title="@string/conduitModePreferenceTitle"
+            android:summary="@string/conduitModePreferenceSummary"
+            android:entries="@array/conduit_mode_entries"
+            android:entryValues="@array/conduit_mode_values"
+            android:defaultValue="auto" />
+        <ListPreference
+            android:icon="@drawable/ic_notif_clock"
+            android:key="@string/conduitTimeoutPreference"
+            android:title="@string/conduitTimeoutPreferenceTitle"
+            android:summary="@string/conduitTimeoutPreferenceSummary"
+            android:entries="@array/conduit_timeout_entries"
+            android:entryValues="@array/conduit_timeout_values"
+            android:defaultValue="180" />
+        <SwitchPreference
+            android:key="@string/rejectCensoredCountryProxiesPreference"
+            android:title="@string/rejectCensoredCountryProxiesPreferenceTitle"
+            android:summary="@string/rejectCensoredCountryProxiesPreferenceSummary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="networkSharingCategory"
+        android:title="@string/preference_category_network_sharing_title">
+        <Preference
+            android:key="networkSharingDescription"
+            android:summary="@string/preference_share_proxy_description"
+            android:selectable="false" />
+        <SwitchPreference
+            android:icon="@drawable/ic_network_share"
+            android:key="@string/shareProxyOnNetworkPreference"
+            android:title="@string/preference_share_proxy_title"
+            android:summary="@string/preference_share_proxy_summary"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:icon="@drawable/ic_proxy_port"
+            android:key="@string/shareProxyOnNetworkSocksPortPreference"
+            android:title="@string/preference_share_proxy_socks_port_title"
+            android:summary="@string/preference_share_proxy_socks_port_summary" />
+        <EditTextPreference
+            android:icon="@drawable/ic_proxy_port"
+            android:key="@string/shareProxyOnNetworkHttpPortPreference"
+            android:title="@string/preference_share_proxy_http_port_title"
+            android:summary="@string/preference_share_proxy_http_port_summary" />
+        <EditTextPreference
+            android:icon="@drawable/ic_proxy_user"
+            android:key="@string/shareProxyOnNetworkUsernamePreference"
+            android:title="@string/preference_share_proxy_username_title"
+            android:summary="@string/preference_share_proxy_username_summary" />
+        <EditTextPreference
+            android:icon="@drawable/ic_proxy_password"
+            android:key="@string/shareProxyOnNetworkPasswordPreference"
+            android:title="@string/preference_share_proxy_password_title"
+            android:summary="@string/preference_share_proxy_password_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_stealth_title">
+        <ListPreference
+            android:icon="@drawable/ic_notif_clock"
+            android:key="disguiseIdentity"
+            android:title="@string/preference_disguise_identity_title"
+            android:summary="@string/preference_disguise_identity_summary"
+            android:defaultValue="default" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_notif_notes"
+            android:key="stealthNotifications"
+            android:title="@string/preference_stealth_notifications_title"
+            android:summary="@string/preference_stealth_notifications_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_info_title">
+        <Preference
+            android:icon="@drawable/baseline_info_white_24"
+            android:key="preferenceAboutShirOKhorshid"
+            android:title="@string/unofficial_disclaimer_about_title"
+            android:summary="@string/unofficial_disclaimer_short" />
+        <Preference
+            android:icon="@drawable/baseline_privacy_tip_white_24"
+            android:key="@string/preferenceAboutMalAware"
+            android:title="@string/aboutMalAware" />
+        <!-- Original Psiphon about link — hidden, not relevant for this build
+        <Preference
+            android:icon="@drawable/baseline_info_white_24"
+            android:key="@string/preferenceAbout"
+            android:title="@string/about" />
+        -->
+    </PreferenceCategory>
+</PreferenceScreen>
